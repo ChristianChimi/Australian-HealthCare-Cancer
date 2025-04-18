@@ -3,7 +3,7 @@ Hi! This is a data analysis based on Australian public health database, cancer s
 Steps:
   - Pre-processing: drop NaN values for years where we don't hace cancer information.
   - Segmentation: Dividing Dataset into Incidence and Mortality Dataframes, also create a different DF for uterine cancer.
-  - Data Reshgaping: Melt and pivot uterine cancer by age (for clustering)
+  - Data Reshaping: Melt and pivot uterine cancer by age (for clustering)
 
 EDA:
   - Plot of cancer incidence and mortality by age.
