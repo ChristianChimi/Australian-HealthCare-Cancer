@@ -13,8 +13,11 @@ EDA:
   - Calculating and plotting death ratio over the years.
 
 Machine Learning/Statistics:
-  - KMean to cluster similar groups by age dor uterine cancer.
+  - KMean:
+      - Cluster similar groups by age dor uterine cancer.
+      - Cluster type of cancer with similar death rate into 0,1,2 category. 
+  - MLP:
+      - Use deep learning to predict mortality ratio basing on incidence for every age group.
+      - The model is trained of dataframe of a specific cluster of cancers to improve accuracy, as the death ration can have huge variety. 
+      - The current year is given as input to capture the temporal improvements in cancer treatment and medical advancements over time, improving prediction accuracy.
   - ARIMA prediction of mortality and incidence for 5 future years
-  - MLP: use deep learning to predict mortality ratio basing on incidence for every age group.
-    The model learn which age group are more likely to die using incidence and death ratio, death ratio
-    based on incidence on differents age group for the current year (given as input)
