@@ -15,6 +15,6 @@ EDA:
 Machine Learning/Statistics:
   - KMean to cluster similar groups by age dor uterine cancer.
   - ARIMA prediction of mortality and incidence for 5 future years
-  - Random forest classifier: use machine learning to predict high mortality ratio basing on incidence for every age group.
-    The model learn which age group are more likely to die using incidence and death ratio, then predict high or low mortality
+  - MLP: use deep learning to predict mortality ratio basing on incidence for every age group.
+    The model learn which age group are more likely to die using incidence and death ratio, death ratio
     based on incidence on differents age group for the current year (given as input)
