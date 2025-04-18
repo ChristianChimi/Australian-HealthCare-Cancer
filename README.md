@@ -10,6 +10,6 @@ EDA:
   - Plotting normalized values of incidence
   - Calculating and plotting death ratio over the years.
 
-Machine Learning:
+Machine Learning/Statistics:
   - KMean to cluster similar groups by age dor uterine cancer.
   - ARIMA prediction of mortality and incidence for 5 future years
