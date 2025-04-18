@@ -11,6 +11,9 @@ EDA:
   - Plot of cancer incidence and mortality by age.
   - Plotting normalized values of incidence
   - Calculating and plotting death ratio over the years.
+  - Plotly Interactive visualization:
+      - Death rate (mean) for every cancer, descending
+      - Death rate across the years, for every cancer, male and female (select from dropdown)
 
 Machine Learning/Statistics:
   - KMean:
