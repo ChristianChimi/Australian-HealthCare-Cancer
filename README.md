@@ -23,4 +23,6 @@ Machine Learning/Statistics:
       - Use deep learning to predict mortality ratio basing on incidence for every age group.
       - The model is trained of dataframe of a specific cluster of cancers to improve accuracy, as the death ration can have huge variety. 
       - The current year is given as input to capture the temporal improvements in cancer treatment and medical advancements over time, improving prediction accuracy.
+      - 
+  - LSTM Prediction incidence for cluster 0 cancer. Purely dimostrative, it overfits easy, as i have limited data. Il would work better with quaterly data, for example.
   - ARIMA prediction of mortality and incidence for 5 future years
