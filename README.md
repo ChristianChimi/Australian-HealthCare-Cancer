@@ -1,12 +1,14 @@
+## **Cancer in Australian Health**
 Hi! This is a data analysis based on Australian public health database, cancer section.
 
 Dataset source: https://data.gov.au/dataset/ds-dga-05696f6f-6ff5-42a2-904f-af5e4d1f56f8/details?q=cancer
 
-- Pre-processing: drop NaN values for years where we don't have cancer information.
+## **Pre-processing**
+  - drop NaN values for years where we don't have cancer information.
   - Segmentation: Dividing Dataset into Incidence and Mortality Dataframes, also create a different DF for uterine cancer.
   - Data Reshaping: Melt and pivot uterine cancer by age (for clustering).
 
-- EDA:
+## **FExploratory Data Analysis**
   - Plot of cancer incidence and mortality by age.
   - Plotting normalized values of incidence.
   - Calculating and plotting death ratio over the years.
@@ -14,7 +16,7 @@ Dataset source: https://data.gov.au/dataset/ds-dga-05696f6f-6ff5-42a2-904f-af5e4
       - Death rate (mean) for every cancer, descending.
       - Death rate across the years, for every cancer, male and female (select from dropdown).
 
-- Machine Learning/Statistics:
+## **Machine Learning/Statistics**
   - KMean:
       - Cluster similar groups by age dor uterine cancer.
       - Cluster type of cancer with similar death rate into 0,1,2 category. 
