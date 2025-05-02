@@ -26,3 +26,7 @@ Dataset source: https://data.gov.au/dataset/ds-dga-05696f6f-6ff5-42a2-904f-af5e4
       - The current year is given as input to capture the temporal improvements in cancer treatment and medical advancements over time, improving prediction accuracy.
   - LSTM Prediction incidence for cluster 0 cancer. Purely dimostrative, it overfits easy, as i have limited data. Il would work better with quaterly data, for example.
   - ARIMA prediction of mortality and incidence for 5 future years.
+
+## **Technologies Used**
+- **Python**, **Pandas**, **Matplotlib**, **Pyplot**, **Kmean**, **PyTorch**, **ARIMA**.
+- **Machine Learning for forecasting** and **statistical analysis**
