@@ -8,7 +8,7 @@ Dataset source: https://data.gov.au/dataset/ds-dga-05696f6f-6ff5-42a2-904f-af5e4
   - Segmentation: Dividing Dataset into Incidence and Mortality Dataframes, also create a different DF for uterine cancer.
   - Data Reshaping: Melt and pivot uterine cancer by age (for clustering).
 
-## **FExploratory Data Analysis**
+## **Exploratory Data Analysis**
   - Plot of cancer incidence and mortality by age.
   - Plotting normalized values of incidence.
   - Calculating and plotting death ratio over the years.
