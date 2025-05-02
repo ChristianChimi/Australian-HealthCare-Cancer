@@ -28,5 +28,5 @@ Dataset source: https://data.gov.au/dataset/ds-dga-05696f6f-6ff5-42a2-904f-af5e4
   - ARIMA prediction of mortality and incidence for 5 future years.
 
 ## **Technologies Used**
-- **Python**, **Pandas**, **Matplotlib**, **Pyplot**, **Kmean**, **PyTorch**, **ARIMA**.
+- **Python**, **Pandas**, **Matplotlib**, **Numpy**, **Pyplot**, **Kmean**, **PyTorch**, **ARIMA**.
 - **Machine Learning for forecasting** and **statistical analysis**
