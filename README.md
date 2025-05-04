@@ -12,13 +12,13 @@ Dataset source: https://data.gov.au/dataset/ds-dga-05696f6f-6ff5-42a2-904f-af5e4
     - Data Reshaping: Melted and pivoted the uterine cancer dataset by age to prepare it for clustering.
 
 ## **Exploratory Data Analysis**
-I performed exploratory analysis to understand how cancer affects different age groups, genders, and time periods.
-    - Cancer Incidence and Mortality by Age: Visualized the trends of cancer incidence and mortality rates across different age groups.
-    - Normalized Incidence Plot: Plotted the normalized values of cancer incidence to better compare trends.
-    - Death Ratio: Calculated and visualized the death ratio over the years to understand how the mortality rate has evolved.
-    - Plotly Interactive visualization:
-        - Death rate (mean) for every cancer, descending.
-        - Death rate across the years, for every cancer, male and female (select from dropdown).
+    - I performed exploratory analysis to understand how cancer affects different age groups, genders, and time periods.
+        - Cancer Incidence and Mortality by Age: Visualized the trends of cancer incidence and mortality rates across different age groups.
+        - Normalized Incidence Plot: Plotted the normalized values of cancer incidence to better compare trends.
+        - Death Ratio: Calculated and visualized the death ratio over the years to understand how the mortality rate has evolved.
+        - Plotly Interactive visualization:
+            - Death rate (mean) for every cancer, descending.
+            - Death rate across the years, for every cancer, male and female (select from dropdown).
 
 ## **Machine Learning/Statistics**
     - KMean:
