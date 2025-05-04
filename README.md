@@ -1,5 +1,8 @@
-## **Cancer in Australian Health**
-This project is a data analysis based on the Australian public health database, specifically focusing on cancer data. The dataset provides insights into cancer incidence and mortality rates across different years, genders, and age groups. The goal is to analyze trends, build predictive models, and gain a deeper understanding of cancer-related statistics in Australia.
+## **Cancer Trends in Australian Public Health**
+
+
+## **Overview**
+This project analyzes cancer-related trends in Australia using historical data from the national public health database. The goal is to uncover insights about cancer incidence and mortality across age, gender, and time, and to build predictive models that support healthcare planning and policy decisions.
 
 Dataset source: https://data.gov.au/dataset/ds-dga-05696f6f-6ff5-42a2-904f-af5e4d1f56f8/details?q=cancer
 
@@ -9,7 +12,8 @@ Dataset source: https://data.gov.au/dataset/ds-dga-05696f6f-6ff5-42a2-904f-af5e4
     - Data Reshaping: Melted and pivoted the uterine cancer dataset by age to prepare it for clustering.
 
 ## **Exploratory Data Analysis**
-    - Cancer Incidence and Mortality by Age: Visualized the trends of cancer incidence and mortality rates across different age groups..
+I performed exploratory analysis to understand how cancer affects different age groups, genders, and time periods.
+    - Cancer Incidence and Mortality by Age: Visualized the trends of cancer incidence and mortality rates across different age groups.
     - Normalized Incidence Plot: Plotted the normalized values of cancer incidence to better compare trends.
     - Death Ratio: Calculated and visualized the death ratio over the years to understand how the mortality rate has evolved.
     - Plotly Interactive visualization:
@@ -26,6 +30,12 @@ Dataset source: https://data.gov.au/dataset/ds-dga-05696f6f-6ff5-42a2-904f-af5e4
         - The current year is given as input to capture the temporal improvements in cancer treatment and medical advancements over time, improving prediction accuracy.
     - Demonstrated LSTM for predicting incidence rates for Cluster 0 cancers. While the model overfits due to limited data, it would perform better with quarterly data or a larger dataset.
     - Applied ARIMA to predict both mortality and incidence rates for the next five years, providing future insights into cancer trend.
+
+## **Key Insights** 
+    - Identified age group with higher cancer incidence and mortality: 65-69 for both.
+    - Visualized incidence and mortality for uterine cancer, suggesting the incidence is increasing more than mortality over the years.
+    - Visualized mortality ratio over the years for uterine cancer: from over 26% in 1985 to 16% in 2010 thanks to medicine improvement.
+    - Predicted future incidence trend: it seems to be increasing as screening campaign intensifies.
 
 ## **Technologies Used**
 - **Python**, **Pandas**, **Matplotlib**, **Numpy**, **Pyplot**, **Kmean**, **PyTorch**, **ARIMA**.
