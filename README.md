@@ -37,6 +37,11 @@ Dataset source: https://data.gov.au/dataset/ds-dga-05696f6f-6ff5-42a2-904f-af5e4
     - Uterine cancer mortality ratio dropped from ~26% in 1985 to ~16% in 2010 — a likely result of medical advancements.
     - Future incidence rates are expected to rise, possibly due to more frequent screenings and awareness campaigns.
 
+## **Conclusions**
+This project provides a comprehensive view of cancer trends in Australia, revealing how incidence and mortality vary across age, gender, and time. The combination of exploratory analysis and predictive modeling highlights critical patterns—such as the growing incidence of uterine cancer and the declining mortality ratio—suggesting progress in early detection and treatment. Forecasting models like ARIMA and LSTM offer a forward-looking perspective, supporting proactive healthcare strategies. Overall, the analysis delivers valuable insights to inform public health planning and cancer policy development.
+
+
+
 ## **Technologies Used**
 - **Python**, **Pandas**, **Matplotlib**, **Numpy**, **Pyplot**, **Kmean**, **PyTorch**, **ARIMA**.
  - **Machine Learning for forecasting** and **statistical analysis**
