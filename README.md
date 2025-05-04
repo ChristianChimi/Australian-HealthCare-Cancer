@@ -1,17 +1,17 @@
 ## **Cancer in Australian Health**
-Hi! This is a data analysis based on Australian public health database, cancer section.
+This project is a data analysis based on the Australian public health database, specifically focusing on cancer data. The dataset provides insights into cancer incidence and mortality rates across different years, genders, and age groups. The goal is to analyze trends, build predictive models, and gain a deeper understanding of cancer-related statistics in Australia.
 
 Dataset source: https://data.gov.au/dataset/ds-dga-05696f6f-6ff5-42a2-904f-af5e4d1f56f8/details?q=cancer
 
 ## **Pre-processing**
-    - Drop NaN values for years where we don't have cancer information.
-    - Segmentation: Dividing Dataset into Incidence and Mortality Dataframes, also create a different DF for uterine cancer.
-    - Data Reshaping: Melt and pivot uterine cancer by age (for clustering).
+    - Handling Missing Values: Removed rows with missing data for years where cancer information was unavailable.
+    - Segmentation: Split the dataset into two separate dataframes—one for cancer Incidence and one for Mortality. Additionally, a specific dataframe for uterine cancer was created.
+    - Data Reshaping: Melted and pivoted the uterine cancer dataset by age to prepare it for clustering.
 
 ## **Exploratory Data Analysis**
-    - Plot of cancer incidence and mortality by age.
-    - Plotting normalized values of incidence.
-    - Calculating and plotting death ratio over the years.
+    - Cancer Incidence and Mortality by Age: Visualized the trends of cancer incidence and mortality rates across different age groups..
+    - Normalized Incidence Plot: Plotted the normalized values of cancer incidence to better compare trends.
+    - Death Ratio: Calculated and visualized the death ratio over the years to understand how the mortality rate has evolved.
     - Plotly Interactive visualization:
         - Death rate (mean) for every cancer, descending.
         - Death rate across the years, for every cancer, male and female (select from dropdown).
@@ -24,9 +24,9 @@ Dataset source: https://data.gov.au/dataset/ds-dga-05696f6f-6ff5-42a2-904f-af5e4
         - Use deep learning to predict mortality ratio basing on incidence for every age group.
         - The model is trained of dataframe of a specific cluster of cancers to improve accuracy, as the death ration can have huge variety. 
         - The current year is given as input to capture the temporal improvements in cancer treatment and medical advancements over time, improving prediction accuracy.
-    - LSTM Prediction incidence for cluster 0 cancer. Purely dimostrative, it overfits easy, as i have limited data. Il would work better with quaterly data, for example.
-    - ARIMA prediction of mortality and incidence for 5 future years.
+    - Demonstrated LSTM for predicting incidence rates for Cluster 0 cancers. While the model overfits due to limited data, it would perform better with quarterly data or a larger dataset.
+    - Applied ARIMA to predict both mortality and incidence rates for the next five years, providing future insights into cancer trend.
 
 ## **Technologies Used**
-    - **Python**, **Pandas**, **Matplotlib**, **Numpy**, **Pyplot**, **Kmean**, **PyTorch**, **ARIMA**.
-    - **Machine Learning for forecasting** and **statistical analysis**
+- **Python**, **Pandas**, **Matplotlib**, **Numpy**, **Pyplot**, **Kmean**, **PyTorch**, **ARIMA**.
+ - **Machine Learning for forecasting** and **statistical analysis**
