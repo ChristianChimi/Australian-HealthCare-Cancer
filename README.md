@@ -21,21 +21,21 @@ Dataset source: https://data.gov.au/dataset/ds-dga-05696f6f-6ff5-42a2-904f-af5e4
             - Death rate across the years, for every cancer, male and female (select from dropdown).
 
 ## **Machine Learning/Statistics**
-    - KMean:
-        - Cluster similar groups by age dor uterine cancer.
-        - Cluster type of cancer with similar death rate into 0,1,2 category. 
+    - K-Mean:
+        - Clustered similar groups by age for uterine cancer.
+        - Clustered cancer types by death rate into categories 0, 1, 2. 
     -  MLP:
-        - Use deep learning to predict mortality ratio basing on incidence for every age group.
-        - The model is trained of dataframe of a specific cluster of cancers to improve accuracy, as the death ration can have huge variety. 
+        - Predicted mortality ratio based on incidence by age group.
+        - The model is trained of dataframe from a specific cluster of cancers to improve accuracy, as the death ratio can have huge variety. 
         - The current year is given as input to capture the temporal improvements in cancer treatment and medical advancements over time, improving prediction accuracy.
     - Demonstrated LSTM for predicting incidence rates for Cluster 0 cancers. While the model overfits due to limited data, it would perform better with quarterly data or a larger dataset.
     - Applied ARIMA to predict both mortality and incidence rates for the next five years, providing future insights into cancer trend.
 
 ## **Key Insights** 
-    - Identified age group with higher cancer incidence and mortality: 65-69 for both.
-    - Visualized incidence and mortality for uterine cancer, suggesting the incidence is increasing more than mortality over the years.
-    - Visualized mortality ratio over the years for uterine cancer: from over 26% in 1985 to 16% in 2010 thanks to medicine improvement.
-    - Predicted future incidence trend: it seems to be increasing as screening campaign intensifies.
+    - Highest cancer incidence and mortality occur in the 65–69 age group.
+    - Uterine cancer incidence is rising faster than its mortality, suggesting early detection or better treatment.
+    - Uterine cancer mortality ratio dropped from ~26% in 1985 to ~16% in 2010 — a likely result of medical advancements.
+    - Future incidence rates are expected to rise, possibly due to more frequent screenings and awareness campaigns.
 
 ## **Technologies Used**
 - **Python**, **Pandas**, **Matplotlib**, **Numpy**, **Pyplot**, **Kmean**, **PyTorch**, **ARIMA**.
