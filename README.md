@@ -8,30 +8,30 @@ This project analyzes cancer-related trends in Australia using historical data f
 
 
 ## **Pre-processing**
-    - Handling Missing Values: Removed rows with missing data for years where cancer information was unavailable.
-    - Segmentation: Split the dataset into two separate dataframes—one for cancer Incidence and one for Mortality. Additionally, a specific dataframe for uterine cancer was created.
-    - Data Reshaping: Melted and pivoted the uterine cancer dataset by age to prepare it for clustering.
+- Handling Missing Values: Removed rows with missing data for years where cancer information was unavailable.
+- Segmentation: Split the dataset into two separate dataframes—one for cancer Incidence and one for Mortality. Additionally, a specific dataframe for uterine cancer was created.
+- Data Reshaping: Melted and pivoted the uterine cancer dataset by age to prepare it for clustering.
 
 ## **Exploratory Data Analysis**
-    - I performed exploratory analysis to understand how cancer affects different age groups, genders, and time periods.
-        - Cancer Incidence and Mortality by Age: Visualized the trends of cancer incidence and mortality rates across different age groups.
-        - Normalized Incidence Plot: Plotted the normalized values of cancer incidence to better compare trends.
-        - Death Ratio: Calculated and visualized the death ratio over the years to understand how the mortality rate has evolved.
-        - Plotly Interactive visualization:
-            - Death rate (mean) for every cancer, descending.
-            - Death rate across the years, for every cancer, male and female (select from dropdown).
+ - I performed exploratory analysis to understand how cancer affects different age groups, genders, and time periods.
+    - Cancer Incidence and Mortality by Age: Visualized the trends of cancer incidence and mortality rates across different age groups.
+    - Normalized Incidence Plot: Plotted the normalized values of cancer incidence to better compare trends.
+    - Death Ratio: Calculated and visualized the death ratio over the years to understand how the mortality rate has evolved.
+    - Plotly Interactive visualization:
+      - Death rate (mean) for every cancer, descending.
+        - Death rate across the years, for every cancer, male and female (select from dropdown).
 
 ## **Machine Learning/Statistics**
     - K-Mean:
-        - Clustered similar groups by age for uterine cancer.
-        - Clustered cancer types by death rate into categories 0, 1, 2. 
+     - Clustered similar groups by age for uterine cancer.
+     - Clustered cancer types by death rate into categories 0, 1, 2. 
     - xGBoost:
-        - Predict cluster according to death ratio. Overall good accuracy (70%) but problems with "2" cluster because the dataset is unbalanced (only 5 on 32)
-        - Accuracy, Recall, precision, f1 score.
+     - Predict cluster according to death ratio. Overall good accuracy (70%) but problems with "2" cluster because the dataset is unbalanced (only 5 on 32)
+     - Accuracy, Recall, precision, f1 score.
     -  MLP:
-        - Predicted mortality ratio based on incidence by age group.
-        - The model is trained of dataframe from a specific cluster of cancers to improve accuracy, as the death ratio can have huge variety. 
-        - The current year is given as input to capture the temporal improvements in cancer treatment and medical advancements over time, improving prediction accuracy.
+     - Predicted mortality ratio based on incidence by age group.
+     - The model is trained of dataframe from a specific cluster of cancers to improve accuracy, as the death ratio can have huge variety. 
+     - The current year is given as input to capture the temporal improvements in cancer treatment and medical advancements over time, improving prediction accuracy.
     - Demonstrated LSTM for predicting incidence rates for Cluster 0 cancers. While the model overfits due to limited data, it would perform better with quarterly data or a larger dataset.
     - Applied ARIMA to predict both mortality and incidence rates for the next five years, providing future insights into cancer trend.
 
