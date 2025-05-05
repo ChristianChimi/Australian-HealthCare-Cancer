@@ -26,12 +26,12 @@ This project analyzes cancer-related trends in Australia using historical data f
   - Clustered similar groups by age for uterine cancer.
   - Clustered cancer types by death rate into categories 0, 1, 2. 
 - xGBoost:
- - Predict cluster according to death ratio. Overall good accuracy (70%) but problems with "2" cluster because the dataset is unbalanced (only 5 on 32)
- - Accuracy, Recall, precision, f1 score.
+  - Predict cluster according to death ratio. Overall good accuracy (70%) but problems with "2" cluster because the dataset is unbalanced (only 5 on 32)
+  - Accuracy, Recall, precision, f1 score.
 - MLP:
- - Predicted mortality ratio based on incidence by age group.
- - The model is trained of dataframe from a specific cluster of cancers to improve accuracy, as the death ratio can have huge variety. 
- - The current year is given as input to capture the temporal improvements in cancer treatment and medical advancements over time, improving prediction accuracy.
+  - Predicted mortality ratio based on incidence by age group.
+  - The model is trained of dataframe from a specific cluster of cancers to improve accuracy, as the death ratio can have huge variety. 
+  - The current year is given as input to capture the temporal improvements in cancer treatment and medical advancements over time, improving prediction accuracy.
 - Demonstrated LSTM for predicting incidence rates for Cluster 0 cancers. While the model overfits due to limited data, it would perform better with quarterly data or a larger dataset.
 - Applied ARIMA to predict both mortality and incidence rates for the next five years, providing future insights into cancer trend.
 
