@@ -32,8 +32,8 @@ This project analyzes cancer-related trends in Australia using historical data f
  - Predicted mortality ratio based on incidence by age group.
  - The model is trained of dataframe from a specific cluster of cancers to improve accuracy, as the death ratio can have huge variety. 
  - The current year is given as input to capture the temporal improvements in cancer treatment and medical advancements over time, improving prediction accuracy.
- - Demonstrated LSTM for predicting incidence rates for Cluster 0 cancers. While the model overfits due to limited data, it would perform better with quarterly data or a larger dataset.
- - Applied ARIMA to predict both mortality and incidence rates for the next five years, providing future insights into cancer trend.
+- Demonstrated LSTM for predicting incidence rates for Cluster 0 cancers. While the model overfits due to limited data, it would perform better with quarterly data or a larger dataset.
+- Applied ARIMA to predict both mortality and incidence rates for the next five years, providing future insights into cancer trend.
 
 ## **Key Insights** 
 - Highest cancer incidence and mortality occur in the 65–69 age group.
