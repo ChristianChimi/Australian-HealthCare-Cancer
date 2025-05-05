@@ -25,6 +25,8 @@ This project analyzes cancer-related trends in Australia using historical data f
     - K-Mean:
         - Clustered similar groups by age for uterine cancer.
         - Clustered cancer types by death rate into categories 0, 1, 2. 
+    - xGBoost:
+        - Predict cluster according to death ratio. Overall good accuracy (70%) but problems with "2" cluster because the dataset is unbalanced (only 5 on 32)
     -  MLP:
         - Predicted mortality ratio based on incidence by age group.
         - The model is trained of dataframe from a specific cluster of cancers to improve accuracy, as the death ratio can have huge variety. 
