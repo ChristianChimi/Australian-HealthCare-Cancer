@@ -23,8 +23,8 @@ This project analyzes cancer-related trends in Australia using historical data f
 
 ## **Machine Learning/Statistics**
 - K-Mean:
- - Clustered similar groups by age for uterine cancer.
- - Clustered cancer types by death rate into categories 0, 1, 2. 
+  - Clustered similar groups by age for uterine cancer.
+  - Clustered cancer types by death rate into categories 0, 1, 2. 
 - xGBoost:
  - Predict cluster according to death ratio. Overall good accuracy (70%) but problems with "2" cluster because the dataset is unbalanced (only 5 on 32)
  - Accuracy, Recall, precision, f1 score.
