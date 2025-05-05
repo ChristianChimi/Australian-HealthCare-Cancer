@@ -22,24 +22,24 @@ This project analyzes cancer-related trends in Australia using historical data f
         - Death rate across the years, for every cancer, male and female (select from dropdown).
 
 ## **Machine Learning/Statistics**
-    - K-Mean:
-     - Clustered similar groups by age for uterine cancer.
-     - Clustered cancer types by death rate into categories 0, 1, 2. 
-    - xGBoost:
-     - Predict cluster according to death ratio. Overall good accuracy (70%) but problems with "2" cluster because the dataset is unbalanced (only 5 on 32)
-     - Accuracy, Recall, precision, f1 score.
-    -  MLP:
-     - Predicted mortality ratio based on incidence by age group.
-     - The model is trained of dataframe from a specific cluster of cancers to improve accuracy, as the death ratio can have huge variety. 
-     - The current year is given as input to capture the temporal improvements in cancer treatment and medical advancements over time, improving prediction accuracy.
-    - Demonstrated LSTM for predicting incidence rates for Cluster 0 cancers. While the model overfits due to limited data, it would perform better with quarterly data or a larger dataset.
-    - Applied ARIMA to predict both mortality and incidence rates for the next five years, providing future insights into cancer trend.
+- K-Mean:
+ - Clustered similar groups by age for uterine cancer.
+ - Clustered cancer types by death rate into categories 0, 1, 2. 
+- xGBoost:
+ - Predict cluster according to death ratio. Overall good accuracy (70%) but problems with "2" cluster because the dataset is unbalanced (only 5 on 32)
+ - Accuracy, Recall, precision, f1 score.
+- MLP:
+ - Predicted mortality ratio based on incidence by age group.
+ - The model is trained of dataframe from a specific cluster of cancers to improve accuracy, as the death ratio can have huge variety. 
+ - The current year is given as input to capture the temporal improvements in cancer treatment and medical advancements over time, improving prediction accuracy.
+ - Demonstrated LSTM for predicting incidence rates for Cluster 0 cancers. While the model overfits due to limited data, it would perform better with quarterly data or a larger dataset.
+ - Applied ARIMA to predict both mortality and incidence rates for the next five years, providing future insights into cancer trend.
 
 ## **Key Insights** 
-    - Highest cancer incidence and mortality occur in the 65–69 age group.
-    - Uterine cancer incidence is rising faster than its mortality, suggesting early detection or better treatment.
-    - Uterine cancer mortality ratio dropped from ~26% in 1985 to ~16% in 2010 — a likely result of medical advancements.
-    - Future incidence rates are expected to rise, possibly due to more frequent screenings and awareness campaigns.
+- Highest cancer incidence and mortality occur in the 65–69 age group.
+- Uterine cancer incidence is rising faster than its mortality, suggesting early detection or better treatment.
+- Uterine cancer mortality ratio dropped from ~26% in 1985 to ~16% in 2010 — a likely result of medical advancements.
+- Future incidence rates are expected to rise, possibly due to more frequent screenings and awareness campaigns.
 
 ## **Conclusions**
 This project provides a comprehensive view of cancer trends in Australia, revealing how incidence and mortality vary across age, gender, and time. The combination of exploratory analysis and predictive modeling highlights critical patterns—such as the growing incidence of uterine cancer and the declining mortality ratio—suggesting progress in early detection and treatment. Forecasting models like ARIMA and LSTM offer a forward-looking perspective, supporting proactive healthcare strategies. Overall, the analysis delivers valuable insights to inform public health planning and cancer policy development.
