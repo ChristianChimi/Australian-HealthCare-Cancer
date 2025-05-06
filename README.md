@@ -6,7 +6,6 @@ This project analyzes cancer-related trends in Australia using historical data f
 
 [Real Dataset from Australian government site!](https://data.gov.au/dataset/ds-dga-05696f6f-6ff5-42a2-904f-af5e4d1f56f8/details?q=cancer)
 
-
 ## **Pre-processing**
 - Handling Missing Values: Removed rows with missing data for years where cancer information was unavailable.
 - Segmentation: Split the dataset into two separate dataframes—one for cancer Incidence and one for Mortality. Additionally, a specific dataframe for uterine cancer was created.
@@ -43,8 +42,6 @@ This project analyzes cancer-related trends in Australia using historical data f
 
 ## **Conclusions**
 This project provides a comprehensive view of cancer trends in Australia, revealing how incidence and mortality vary across age, gender, and time. The combination of exploratory analysis and predictive modeling highlights critical patterns—such as the growing incidence of uterine cancer and the declining mortality ratio—suggesting progress in early detection and treatment. Forecasting models like ARIMA and LSTM offer a forward-looking perspective, supporting proactive healthcare strategies. Overall, the analysis delivers valuable insights to inform public health planning and cancer policy development.
-
-
 
 ## **Technologies Used**
 - **Python**, **Pandas**, **Matplotlib**, **Numpy**, **Pyplot**, **Kmean**, **PyTorch**, **ARIMA**.
