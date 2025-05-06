@@ -1,4 +1,4 @@
-## **Cancer Trends in Australian Public Health**
+# **Cancer Trends in Australian Public Health**
 ## **Overview**
 This project analyzes cancer-related trends in Australia using historical data from the national public health database.
 
